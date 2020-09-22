@@ -3,9 +3,9 @@
       "apps": [],
       "details":[
          {
-            "appID":"GB9B5L6A6K.com.spartascience.PrototypeMariposa",
+            "appID":["GB9B5L6A6K.com.spartascience.PrototypeMariposa", "RDXCX7EKCD.com.gameborn.mariposa"],
             "paths":[
-               "*"
+               "*/scan/*"
             ]
          }
       ]
