@@ -1,7 +1,18 @@
 <head>
+    <p>Tuolumne<p/>
 </head>
 
 <body>
-<p>Tuolumne<p/>
+    <script>
+        function doScan() {
+            window.webkit.messageHandlers.doScan.postMessage({token: "4caf20d8-fdad-11ea-adc1-0242ac120002"})
+        }
+        
+        function finishScan() {
+            window.location = "/finished.html"
+        }
+    </script>
+    <button onclick="doScan()">Scan</button>
 </body>
+
 
